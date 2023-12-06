@@ -2,6 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import MyCard from "./components/MyCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -51,6 +52,11 @@ function App() {
           text="San Bernardo"
         />
       </div>
+      <Footer
+        pieDePagina="Explora nuestra galería en adopción de perros para encontrar a tu compañero perfecto. tenemos una variedad de
+      perros con diferentes personalidades y tamaños, todos en busca de un hogar amoroso. Cada imagen captura su escencia única.Adopta un perro y dale una segunda oportunidad, 
+      ¡Encuentra a tu compañero peludo!"
+      />
     </div>
   );
 }
