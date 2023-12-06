@@ -1,18 +1,19 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import CardBadge from "./Tags";
 
-function MyCard({ url, name, description }) {
+const MyCard = ({ url, name, description, text, color }) => {
   return (
     <>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "20rem" }}>
         <Card.Img className="card__img" variant="top" src={url} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
+          <Card.Text>{description}</Card.Text>
+          <CardBadge color={color} text={text}></CardBadge>
         </Card.Body>
-        <Card.Text>{description}</Card.Text>
       </Card>
     </>
   );
-}
+};
 
 export default MyCard;
