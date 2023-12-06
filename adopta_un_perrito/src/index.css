@@ -25,9 +25,14 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .card__img {
   width: 250px;
+  height: 220px;
 }
 .card__container {
   margin-top: 20px;

@@ -1,7 +1,8 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import MyCard from "./components/MyCard";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div>
@@ -11,43 +12,43 @@ function App() {
           url="./src/assets/beto.jpg"
           name="Beto"
           description="Este perrito siempre está lleno de energía y es muy cariñoso, dale el hogar que se merece!"
-          color="succes"
+          color="success"
           text="Huski"
         />
         <MyCard
-          url="./src/assets/beto.jpg"
-          name="Beto"
-          description="Este perrito siempre está lleno de energía y es muy cariñoso, dale el hogar que se merece!"
-          color="succes"
-          text="Huski"
+          url="./src/assets/poodle.webp"
+          name="Luli"
+          description="Hermoso poodle muy inquieto pero también muy regalón"
+          color="primary"
+          text="Poodle Toy"
         />
         <MyCard
-          url="./src/assets/beto.jpg"
-          name="Beto"
-          description="Este perrito siempre está lleno de energía y es muy cariñoso, dale el hogar que se merece!"
-          color="succes"
-          text="Huski"
+          url="./src/assets/chiguagua.webp"
+          name="Leon"
+          description="Un perrito tierno y adorable con mucho amor para una familia que sepa quererlo"
+          color="warning"
+          text="Chihuahua"
         />
         <MyCard
-          url="./src/assets/beto.jpg"
-          name="Beto"
-          description="Este perrito siempre está lleno de energía y es muy cariñoso, dale el hogar que se merece!"
-          color="succes"
-          text="Huski"
+          url="./src/assets/galgo.jpg"
+          name="Ayudante de Santa"
+          description="Un hermoso Galgo corredor lleno de enegía que busca un hogar grande donde pueda correr sin parar"
+          color="info"
+          text="Galgo italiano"
         />
         <MyCard
-          url="./src/assets/beto.jpg"
-          name="Beto"
-          description="Este perrito siempre está lleno de energía y es muy cariñoso, dale el hogar que se merece!"
-          color="succes"
-          text="Huski"
+          url="./src/assets/dalmata.webp"
+          name="Bob"
+          description="Tierno dalmata que busca hogar acogedor, ama a los niños y le encanta salir a pasear  "
+          color="dark"
+          text="Dalmata"
         />
         <MyCard
-          url="./src/assets/beto.jpg"
-          name="Beto"
-          description="Este perrito siempre está lleno de energía y es muy cariñoso, dale el hogar que se merece!"
-          color="succes"
-          text="Huski"
+          url="./src/assets/san_bernardo.jpg"
+          name="Toto"
+          description="Un perro grande y hermoso como su corazón, no te aburrirás con él ya que siempre está jugando y saltando!"
+          color="secondary"
+          text="San Bernardo"
         />
       </div>
     </div>
